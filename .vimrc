@@ -1,16 +1,14 @@
-" Vundle Config Start
 set nocompatible " Be IMproved
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim.git'
-Plugin 'scrooloose/syntastic.git'
-Plugin 'bling/vim-airline.git'
-Plugin 'mustache/vim-mustache-handlebars'
-Plugin 'dart-lang/dart-vim-plugin'
-call vundle#end()
 filetype plugin indent on
-" Vundle Config End
+
+" vim-plug (https://github.com/junegunn/vim-plug) 
+if !empty(glob('~/.vim/autoload/plug.vim'))
+  call plug#begin('~/.vim/plugged')
+  Plug 'scrooloose/syntastic'
+  Plug 'bling/vim-airline'
+  Plug 'dart-lang/dart-vim-plugin'
+  call plug#end()
+endif
 
 colorscheme desert
 syntax enable                   " enable syntax processing
