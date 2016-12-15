@@ -1,5 +1,6 @@
 [user]
 	name = Abhineet Tamrakar
-	email = abhineet97@gmail.com
+	email = abhineet97@users.noreply.github.com
 [core]
 	editor = vim
+	autocrlf = true
