@@ -9,7 +9,7 @@ if empty(glob('~/.vim/autoload/plug.vim')) " install vim-plug if it isn't.
 endif
 if !empty(glob('~/.vim/autoload/plug.vim')) " if vim-plug is installed then install vim scripts using it.
   call plug#begin('~/.vim/plugged')
-  Plug 'scrooloose/syntastic'
+  Plug 'vim-syntastic/syntastic'
   " Plug 'dart-lang/dart-vim-plugin'
   call plug#end()
 endif
