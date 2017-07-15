@@ -1,1 +1,3 @@
-../../.minttyrc
+BoldAsFont=no
+Font=Consolas
+FontHeight=12

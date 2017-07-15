@@ -1,1 +1,8 @@
-../../.gitconfig
+[user]
+	name = Abhineet Tamrakar
+	email = abhineet97@users.noreply.github.com
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore
+[push]
+	default = simple

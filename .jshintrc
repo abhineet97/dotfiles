@@ -1,1 +1,4 @@
-../../.jshintrc
+{
+  "devel": true,
+  "browser": true
+}
