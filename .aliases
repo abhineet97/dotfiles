@@ -1,0 +1,16 @@
+# Unix
+alias l="ls"
+alias ll="ls -al"
+alias ln="ln -v"
+alias mkdir="mkdir -p"
+alias e="$EDITOR"
+alias v="$VISUAL"
+
+# Git
+alias g="git"
+alias gbd='git branch --merged | grep -vE "^[*+]|^ *(master|main|dev)$" | xargs git branch -d'
+
+# Apps
+alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
+alias claude-personal="CLAUDE_CONFIG_DIR=~/.claude-personal command claude"
+alias claude-work="CLAUDE_CONFIG_DIR=~/.claude-work command claude"

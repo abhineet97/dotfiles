@@ -1,0 +1,29 @@
+[user]
+  name = Abhineet
+  email = abhineet97@users.noreply.github.com
+
+[alias]
+  lg = log --all --oneline --graph
+  st = status
+
+[core]
+  autocrlf = input
+  pager = less -FRX
+
+[init]
+  defaultBranch = main
+
+[pull]
+  rebase = true
+
+[push]
+  autoSetupRemote = true
+
+[rerere]
+  enabled = true
+
+[diff]
+  algorithm = histogram
+
+[includeIf "gitdir:~/Work/"]
+  path = ~/Work/.gitconfig-work
